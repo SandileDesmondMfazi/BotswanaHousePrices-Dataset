@@ -53,4 +53,4 @@ Feel free to submit pull requests or open issues if you find any bugs or have su
 
 ## Contact
 
-For any inquiries or suggestions, please contact [your email] or open an issue in this repository.
+For any inquiries or suggestions, please contact [sandilemfazi12@gmail.com] or open an issue in this repository.
