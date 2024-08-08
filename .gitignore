@@ -1,5 +1,6 @@
 # Ignore the specific virtual environment folder
 Gabz_Dataset/
+Kaggle_Datasets/
 
 # offload folder
 offload/
