@@ -16,7 +16,7 @@ combined_df.columns = ['Id','Property_Title', 'Location', 'Description', 'Link',
 data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
 
 # Save the combined dataset
-combined_df.to_csv(os.path.join(data_dir, 'Botswana_Property_Prices.csv'), index=False, encoding='utf-8')
+combined_df.to_csv('Botswana_Property_Prices.csv', index=False, encoding='utf-8')
 
 # Print the first few rows to verify
 print(combined_df.head())
