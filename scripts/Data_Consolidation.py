@@ -9,6 +9,9 @@ seeff = pd.read_csv('data/New_Seeff.csv')
 # Combine datasets
 combined_df = pd.concat([property24, remax, seeff], ignore_index=True)
 
+# Rename columns
+combined_df.columns = ['Id','Property_Title', 'Location', 'Description', 'Link', 'Bedrooms', 'Bathrooms', 'Parking_Spaces', 'Erf_Size', 'Agency', 'Price']
+
 # Get the absolute path to the data directory
 data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
 
